@@ -59,7 +59,7 @@ const FeatureThatEmpower = () => {
       <div className={classes.allFeatures}>
         <div className={classes.topPart}>
           {" "}
-          <div className={classes.about} data-aos="fade-right">
+          <div className={classes.about} data-aos="fade-up">
             <div className={classes.header}>
               <button className={clsx(classes.button, classes.red)}></button>
               <button className={clsx(classes.button, classes.yellow)}></button>
@@ -73,7 +73,7 @@ const FeatureThatEmpower = () => {
               stay ahead of the curve
             </Heading>
           </div>
-          <div className={classes.featureAndFaciliteis} data-aos="fade-left">
+          <div className={classes.featureAndFaciliteis}>
             <div className={clsx(classes.feature, classes.codeCompletion)}>
               <img
                 src={codeCompletion.img}
