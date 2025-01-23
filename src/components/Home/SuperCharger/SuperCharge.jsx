@@ -34,7 +34,7 @@ const SuperCharge = () => {
         info="Stay ahead of the competition by quickly identifying trends and patterns in your data with our innovative algorithms."
         center
       />
-      <div className={classes.imgContainer} data-aos="fade-right">
+      <div className={classes.imgContainer} data-aos="fade-left">
         <img src={superChargeCard} alt="#" className={classes.img} />
       </div>
       <div className={classes.cards} data-aos="fade-up">
