@@ -1,0 +1,139 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 75px 0;
+}
+.allFeatures {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.about {
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--Primitive-100);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.topPart {
+  display: grid;
+  grid-template-columns: 1fr 347px;
+  gap: 8px;
+}
+.featureAndFaciliteis {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+
+  max-width: 384px;
+}
+.codeCompletion {
+  margin-top: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+}
+.button {
+  width: 11px;
+  height: 11px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.yellow {
+  background: var(--Yellow);
+}
+.green {
+  background: var(--Green);
+}
+.red {
+  background: var(--Red);
+}
+.heading {
+  padding: 40px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.feature {
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  background: var(--Primitive-100);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.img {
+  display: block;
+  width: 100%;
+}
+.infoWrapper {
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  gap: 8px;
+}
+.icon {
+  width: 16px;
+  display: block;
+}
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+@media only screen and (max-width: 1199px) {
+  .heading {
+    padding: 24px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .wrapper {
+    padding: 50px 0;
+  }
+  .topPart {
+    display: flex;
+    flex-direction: column;
+  }
+  .featureAndFaciliteis {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+  }
+  .features {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    max-width: 640px;
+  }
+  .featureAndFaciliteis {
+    flex-direction: column;
+  }
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .heading {
+    padding: 0;
+  }
+}
